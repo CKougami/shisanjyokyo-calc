@@ -28,6 +28,7 @@
 }
 .calc-result{
   width: calc(100vw - 50vw);
+  overflow: scroll;
 }
 .table {
   text-align: center;
@@ -37,7 +38,7 @@
 }
 .table th {
   padding: 10px;
-  width: 80px;
+  width: 120px;
   background: #778ca3;
   border: solid 1px #666666;
   color: #ffffff;
@@ -53,5 +54,5 @@
 .footer {
   background-color: #DDDDDD;
   height: 90px;
-  padding: 20px 40px;
+  padding: 20px 20px;
 }

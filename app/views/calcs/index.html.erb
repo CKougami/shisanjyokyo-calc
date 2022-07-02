@@ -17,7 +17,7 @@
         <label class="label">使用期間（年）</label>
         <input type="number" placeholder="例）5">
         <label class="label">利息（％）※取得日の国債金利<a href=https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm target="_blank" class="alert-link"> （国債金利情報）</a></label>
-        <input type="number" placeholder="例）1">
+        <input type="number" placeholder="例）0.01">
 
         <button id="calc">計算</button><br>
         <label class="label">取得価値</label>
@@ -33,41 +33,8 @@
     </div>
 
     <div class="footer">
+      <p>※計算結果はあくまで目安であり正確な数値を算出するものではありません。</p>
+      <p>※計算結果や情報等に関して当サイトは一切責任を負いません。また個別相談は一切対応しません。</p>
     </div>
   </div>
 </div>
-
-
-
-
-
-<%# <div class="header">
-<div class="title">
-  <h3>資産除去債務</h3>
-</div>
-</div>
-
-<style>
-#data tbody tr td:first-of-type:after { content: "年"}
-</style>
-
-<div class="tab">
-<body>
-<div id="input" class="input">
-  <label class="label">資産除去費用</label>
-  <input type="number" placeholder="JPY'000">
-  <label class="label">使用期間（年）</label>
-  <input type="number" placeholder="例）5">
-  <label class="label">利息（％）※取得日の国債金利<a href=https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm target="_blank" class="alert-link"> （国債金利情報）</a></label>
-  <input type="number" placeholder="例）1">
-
-  <button id="calc">計算</button><br>
-  <label class="label">取得価値</label>
-  <output id="result"></output>
-</div>
-
-<table class="table" id="data" >
-  <thead>
-    <tr><th>年<th>資産<th>負債
-</table>
-</div> %>
