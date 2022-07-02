@@ -50,10 +50,9 @@
  .table td:first-child {
   background: #e9faf9;
  } 
-
 .footer {
   height: 90px;
-  padding: 20px 20px;
+  padding: 5px 20px;
   position: absolute;/*←絶対位置*/
   bottom: 0; /*下に固定*/
   background-color: lightgrey;
