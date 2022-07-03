@@ -1,24 +1,25 @@
-# README
+## アプリケーション名
+資産除去債務簡易算出アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション概要
+固定資産管理業務における資産除去債務の簡易計算を行う。
 
-Things you may want to cover:
+## URL 
+https://shisanjyokyo-calc.herokuapp.com/
 
-* Ruby version
+## 利用方法	
+固定資産の「資産除去費用」「使用年数」「利息」を入力することで、  
+「取得価値」および使用年数に応じた資産と負債の目安となる推移金額を出力する。
 
-* System dependencies
+## アプリケーションを作成した背景	
+2010年の法改正に伴い、資産除去債務が義務化された。  
+グループ会社で所有している数百件を超える固定資産の対し、現状では1件毎に「取得金額」「年間推移」を手計算しなければならず作業時間を圧迫していることから、作業効率を上げるための計算アプリケーションを作成することにした。
 
-* Configuration
+## 動作イメージ
+[![Image from Gyazo](https://i.gyazo.com/49b3b9c76fd6b4787b7640ebe7ebb6fe.gif)](https://gyazo.com/49b3b9c76fd6b4787b7640ebe7ebb6fe)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 開発環境	
+- Ruby on Rails6.0.0
+- HTML
+- CSS
+- JavaScript
